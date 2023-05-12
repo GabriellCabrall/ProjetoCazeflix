@@ -21,7 +21,7 @@ Repositório para armazenamento e gerenciamento do projeto HashFlix (baseado na 
     - quantidade de views
     - data de criação
     - Episodios
-        - videos
+        - videos (link do vídeo)
         - titulo
 
 - Barra de Pesquisa
