@@ -20,6 +20,12 @@ class Detalhesfilme(DetailView):
     model = Filme
     # object -> 1 item do nosso modelo
 
+    def get_context_data(self, **kwargs):
+        context = super(Detalhesfilme, self).get_context_data(**kwargs)
+        filmes_relacionados = Filme.objects.filter(categoria=self.get_object().categoria)[0:3]
+        context['filmes_relacionados'] = filmes_relacionados
+        return context
+
 
 # def homefilmes(request):
 #     context = {}
