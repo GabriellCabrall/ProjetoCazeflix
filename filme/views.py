@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Filme
-from django.views.generic import TemplateView, ListView
+from django.views.generic import TemplateView, ListView, DetailView
 
 
 # Create your views here.
@@ -8,10 +8,18 @@ from django.views.generic import TemplateView, ListView
 class Homepage(TemplateView):
     template_name = 'homepage.html'
 
+
 class Homefilmes(ListView):
     template_name = 'homefilmes.html'
     model = Filme
     # object_list
+
+
+class Detalhesfilme(DetailView):
+    template_name = "detalhesfilme.html"
+    model = Filme
+    # object -> 1 item do nosso modelo
+
 
 # def homefilmes(request):
 #     context = {}
