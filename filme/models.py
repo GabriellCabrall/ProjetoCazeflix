@@ -5,9 +5,11 @@ from django.contrib.auth.models import AbstractUser
 # Create your models here.
 
 LISTA_CATEGORIAS = (
-    ('ANALISES', 'Análises'),
-    ('PROGRAMACAO', 'Programação'),
-    ('APRESENTACAO', 'Apresentação'),
+    ('TRANSITO', 'Trânsito'),
+    ('COMIDAS', 'Comidas'),
+    ('RELATOS', 'Relatos'),
+    ('JOGOS', 'Jogos'),
+    ('FUTEBOL', 'Futebol'),
     ('OUTROS', 'Outros'),
 )
 

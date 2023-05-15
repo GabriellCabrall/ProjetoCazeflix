@@ -12,7 +12,8 @@ HomeFilmes Hashflix
 {% block content %}
 <main class='bg-primary_black min-h-screen w-full'>
     <section class="h-screen relative bg-no-repeat pb-8 pl-6 flex items-end bg-cover" style="background-image: url('{{ filme_destaque.thumb.url }}');">
-        <div>
+        <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
+        <div class="z-50">
             <h2 class="text-6xl font-semibold text-white my-4">
                 {{ filme_destaque.titulo }}
             </h2>
