@@ -1,5 +1,5 @@
-# ProjetoHashflix
-Repositório para armazenamento e gerenciamento do projeto HashFlix (baseado na netflix)
+# ProjetoCazéflix
+Repositório para armazenamento e gerenciamento do projeto CazéFlix (baseado na netflix)
 
 ---
 
