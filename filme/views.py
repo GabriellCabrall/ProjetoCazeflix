@@ -57,6 +57,11 @@ class Pesquisafilme(LoginRequiredMixin, ListView):
         else:
             return None
 
+
+class Paginaperfil(LoginRequiredMixin, TemplateView):
+    template_name = 'editarperfil.html'
+
+
 # def homefilmes(request):
 #     context = {}
 #     lista_filmes = Filme.objects.all()
