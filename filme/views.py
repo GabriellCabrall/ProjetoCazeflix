@@ -62,6 +62,10 @@ class Paginaperfil(LoginRequiredMixin, TemplateView):
     template_name = 'editarperfil.html'
 
 
+class Criarconta(TemplateView):
+    template_name = 'criarconta.html'
+
+
 # def homefilmes(request):
 #     context = {}
 #     lista_filmes = Filme.objects.all()
