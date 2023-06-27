@@ -1,8 +1,6 @@
 # ProjetoCazéflix
 Repositório para armazenamento e gerenciamento do projeto CazéFlix (baseado na netflix)
 
----
-
 ## Planejamento do projeto
 
 - Homepage
