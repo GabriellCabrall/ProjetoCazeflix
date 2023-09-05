@@ -1,7 +1,7 @@
 # Projeto Cazeflix
 
 ## Descrição
-Este projeto é uma plataforma de gerenciamento de vídeos do canal Cortes do Casimito, disponível [AQUI](https://www.youtube.com/@CortesdoCasimitoOFICIAL)
+Este projeto é uma plataforma de gerenciamento de vídeos do canal Cortes do Casimito, disponível [AQUI](https://www.youtube.com/@CortesdoCasimitoOFICIAL) O projeto é baseado na plataforma de streaming [Netflix](https://www.netflix.com/br/).
 
 ## Tecnologias utilizadas
 - Python
